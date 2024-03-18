@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('../img/pattern.png');
+    background-repeat: repeat-x;
+    background-position-x: 130px;
+    background-color: rgb(101, 174, 253);
+    height: 180px;
+}
+
+#logo {
+    width: 350px;
+    padding-top: 80px;
+    padding-left: 10px
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 4em;
+}
+
+#titolo {
+    margin-bottom: 30px;
+}
+
+#testo_blu {
+    color: rgb(0, 179, 255);
+}
+
+.testo_grigio {
+    color: grey;
+}
+/* creo un margine a sinistra per tutto il file main e footer */
+main {
+    margin-left: 20px;
+}
+
+#img_tim_1 {
+    width: 600px;
+}
+
+#img_tim_2 {
+    width: 513px;
+}
+
+#sezione_img p {
+    font-size: 25px;
+}
+/* decido che tipo di testo usare e le sue dimensioni */
+.testo {
+    font-size: 30px;
+    font-family: "Caladea", serif;
+    margin: 50px 0px;
+}
+/* evidenzio il testo usando lo span */
+.evidenziato {
+    background-color: yellow;
+}
+
+ul {
+    padding-left: 30px;
+}
+/* rendo unica la tabella senza spaziatura di border */
+table {
+    border-collapse: collapse;
+}
+
+.text_left{
+    text-align: left;
+}
+
+
+/* faccio occupare alle prime 2 colonne il 25% di spazio ciascuna */
+.column_size {
+    width: 25%;
+}
+
+th {
+    color: white;
+    background-color: rgba(0, 110, 255, 0.623);
+}
+
+.sfondo_ciano {
+    background-color: rgba(107, 223, 255, 0.413);
+}
+
+footer{
+    margin-left: 20px !important;
+}
+
+#img_monitor{
+    background-image: url('../img/monitor.jpg');
+    height: 220px;
+    width: 300px;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+#img_graph {
+    background-image: url('../img/graph.jpg');
+    height: 220px;
+    width: 300px;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container {
+    width: 1200px ;
+    margin: 0 auto;
+}
+
