@@ -13,15 +13,15 @@ header {
 }
 
 #logo {
-    width: 400px;
-    padding-top: 65px;
+    width: 350px;
+    padding-top: 80px;
     padding-left: 10px
 }
 
 h1 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 5em;
+    font-size: 4em;
 }
 
 #titolo {
@@ -41,11 +41,11 @@ main {
 }
 
 #img_tim_1 {
-    width: 1000px;
+    width: 900px;
 }
 
 #img_tim_2 {
-    width: 854px;
+    width: 770px;
 }
 
 #sezione_img p {
@@ -53,7 +53,7 @@ main {
 }
 /* decido che tipo di testo usare e le sue dimensioni */
 .testo {
-    font-size: 35px;
+    font-size: 30px;
     font-family: "Caladea", serif;
     margin: 50px 0px;
 }
@@ -74,9 +74,7 @@ table {
     text-align: left;
 }
 
-.text_center {
-    text-align: center;
-}
+
 /* faccio occupare alle prime 2 colonne il 25% di spazio ciascuna */
 .column_size {
     width: 25%;
@@ -103,6 +101,7 @@ footer{
     color: white;
     text-align: center;
     margin-top: 30px;
+    padding-top: 10px;
 }
 
 #img_graph {
@@ -112,5 +111,6 @@ footer{
     background-repeat: no-repeat;
     color: white;
     text-align: center;
+    padding-top: 10px;
 }
 
