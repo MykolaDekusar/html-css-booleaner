@@ -16,5 +16,23 @@ header {
 #logo {
     width: 450px;
     padding-top: 65px;
-    padding-left: 30px;
+    padding-left: 10px
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 6em;
+}
+
+#testo_blu{
+    color: rgb(0, 179, 255);
+}
+
+.testo_grigio{
+    color: grey;
+}
+
+.margin_left {
+    margin-left: 10px;
 }
