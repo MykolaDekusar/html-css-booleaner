@@ -5,7 +5,7 @@
 }
 
 header {
-    background-image: url(../img/pattern.png);
+    background-image: url('../img/pattern.png');
     background-repeat: repeat-x;
     background-position-x: 130px;
     background-color: rgb(101, 174, 253);
@@ -35,9 +35,9 @@ h1 {
 .testo_grigio {
     color: grey;
 }
-
+/* creo un margine a sinistra per tutto il file main e footer */
 main {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 #img_tim_1 {
@@ -51,21 +51,21 @@ main {
 #sezione_img p {
     font-size: 25px;
 }
-
+/* decido che tipo di testo usare e le sue dimensioni */
 .testo {
     font-size: 35px;
     font-family: "Caladea", serif;
     margin: 50px 0px;
 }
-
+/* evidenzio il testo usando lo span */
 .evidenziato {
     background-color: yellow;
 }
 
 ul {
-    padding-left: 25px;
+    padding-left: 30px;
 }
-
+/* rendo unica la tabella senza spaziatura di border */
 table {
     border-collapse: collapse;
 }
@@ -77,7 +77,7 @@ table {
 .text_center {
     text-align: center;
 }
-
+/* faccio occupare alle prime 2 colonne il 25% di spazio ciascuna */
 .column_size {
     width: 25%;
 }
@@ -89,5 +89,28 @@ th {
 
 .sfondo_ciano {
     background-color: rgba(107, 223, 255, 0.413);
+}
+
+footer{
+    margin-left: 20px !important;
+}
+
+#img_monitor{
+    background-image: url('../img/monitor.jpg');
+    height: 220px;
+    width: 300px;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#img_graph {
+    background-image: url('../img/graph.jpg');
+    height: 220px;
+    width: 300px;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
 }
 
