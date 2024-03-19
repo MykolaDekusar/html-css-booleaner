@@ -38,6 +38,7 @@ h1 {
 /* creo un margine a sinistra per tutto il file main e footer */
 main {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 #img_tim_1 {

@@ -15,7 +15,7 @@ header {
 #logo {
     width: 350px;
     padding-top: 80px;
-    padding-left: 10px
+    padding-left: 15px
 }
 
 h1 {
@@ -37,7 +37,7 @@ h1 {
 }
 /* creo un margine a sinistra per tutto il file main e footer */
 main {
-    margin-left: 20px;
+    margin: 0 20px;
 }
 
 #img_tim_1 {
